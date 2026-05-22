@@ -124,11 +124,12 @@ TfidfVectorizer(
 
 The notebook auto-detects CSV files under `/kaggle/input/`. Ensure your Kaggle dataset contains:
 
+```
 /kaggle/input/
 └── <your-dataset>/
-├── tiktok_train.csv      # or any file with 'train' in the name
-└── tiktok_test.csv       # or any file with 'test' in the name
-
+    ├── tiktok_train.csv
+    └── tiktok_test.csv
+```
 Each CSV must include the columns: `content`, `score`, `sentiment`.
 
 ### C. Install Dependencies
