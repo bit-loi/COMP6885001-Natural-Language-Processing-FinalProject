@@ -11,7 +11,7 @@
 
 ## 1. Problem Statement & Motivation
 
-Social media platforms like TikTok generate massive volumes of user-generated content daily. Understanding public sentiment in these comments is valuable for content creators, brands, and researchers. This project builds an end-to-end NLP pipeline for multi-class sentiment classification (positive / negative / neutral) on real-world Indonesian TikTok comment data.
+Social media platforms like TikTok generate massive volumes of user-generated content daily. Understanding public sentiment in these comments is valuable for content creators, brands, and researchers. This project builds an end-to-end NLP pipeline for multi-class sentiment classification (positive / negative) on real-world Indonesian TikTok comment data.
 
 The pipeline applies classical machine learning models with TF-IDF feature extraction, benchmarked against IndoBERT — a transformer-based model pre-trained on Indonesian text — to demonstrate the performance gap between traditional and deep learning approaches.
 
